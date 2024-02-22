@@ -11,20 +11,20 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 import java.util.List;
 
-@Document(collection =  "movies")
+@Document(collection = "movies")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Movie {
-@Id
-private ObjectId id;
-private String imdbId;
-private String title;
-private String releasedDate;
-private String trailerLink;
-private String poster;
-private List<String> genres;
-private List<String> backdrops;
-@DocumentReference
-private List<Review> reviewIds;
+    @Id
+    private ObjectId id;
+    private String imdbId;
+    private String title;
+    private String releasedDate;
+    private String trailerLink;
+    private String poster;
+    private List<String> genres;
+    private List<String> backdrops;
+    @DocumentReference
+    private List<Review> reviewIds;
 }
