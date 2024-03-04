@@ -21,7 +21,8 @@ function App() {
     {
 
       const response = await api.get("/api/v1/movies");
-
+      console.log("This is what I checking!")
+console.log(response.data)
       setMovies(response.data);
       
 
@@ -39,7 +40,7 @@ function App() {
         const response = await api.get(`/api/v1/movies/${movieId}`);
 
         const singleMovie = response.data;
-        console.log(response.data)
+        
         setMovie(singleMovie);
 
         setReviews(singleMovie.reviews);

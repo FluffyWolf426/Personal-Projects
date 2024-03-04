@@ -20,10 +20,14 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
         e.preventDefault();
 
         const rev = revText.current;
-        console.log(reviews)
+        console.log("Checking the code!!!")
+        console.log(rev)
         try
         {
             const response = await api.post("/api/v1/reviews",{reviewBody:rev.value,imdbId:movieId});
+            console.log("Checking the code!!!")
+            console.log(rev.value)
+            console.log(movieId)
 
             const updatedReviews = [...reviews, {body:rev.value}];
     
