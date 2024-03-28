@@ -1,0 +1,73 @@
+﻿@page "/HogWild/InvoiceList"
+@using HogWildWebApp.BlazorPagination
+<PageTitle>Invoice List</PageTitle>
+<h3>Invoice List</h3>
+<header>
+    <h5>
+        NOTE:  This examples pulls back all invoices however this is just used to show Pagination.<br />
+        You would normally filter by date, customer or even Invoice ID
+    </h5>
+</header>
+<body>
+<td>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" @onclick="@(e => NewInvoice())">New (Simple Invoice)</MudButton>
+    </td>
+<!--
+NOTE: To use the Sort Icon, you must added the following to the _host.cshtml file
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+The sort did not work on "Customer Name" so it has been disable"
+-->
+<TableTemplate Items="PaginatorInvoice.Results" Context="InvoiceView">
+    <TableHeader>
+        <th></th>
+            <th></th>
+        <th class="SortField @GetSortColumn("InvoiceID")" @onclick="@(() => Sort("InvoiceID"))">Invoice ID <i class="@(SetSortIcon("InvoiceID"))"></i></th>
+        <th class="SortField @GetSortColumn("InvoiceDate")" @onclick="@(() => Sort("InvoiceDate"))">Invoice Date <i class="@(SetSortIcon("InvoiceDate"))"></i></th>
+        <th> Customer Name</th>
+        <th class="SortField @GetSortColumn("Total")" @onclick="@(() => Sort("Total"))">Total <i class="@(SetSortIcon("Total"))"></i></th>
+    </TableHeader>
+    <RowTemplate>
+        <td>
+            <button class="btn-success" @onclick="(() => SimpleEditInvoice(InvoiceView.InvoiceID, InvoiceView.CustomerID))">Simple Edit</button>
+        </td>
+        <td>
+            <button class="btn-success" @onclick="(() => EditInvoice(InvoiceView.InvoiceID, InvoiceView.CustomerID))">Edit</button>
+        </td>
+        <td>@InvoiceView.InvoiceID</td>
+        <td>@InvoiceView.InvoiceDate.Date.ToShortDateString()</td>
+        <td>@InvoiceView.CustomerName</td>
+        <td>@InvoiceView.Total.ToString("C")</td>
+    </RowTemplate>
+</TableTemplate>
+<div align="center">
+    <BlazorPager CurrentPage="PaginatorInvoice.CurrentPage"
+                 PageCount="PaginatorInvoice.PageCount"
+                 VisiblePages="3"
+                 ShowFirstLast="true"
+                 ShowPageNumbers="true"
+                 FirstText="&laquo;"
+                 LastText="&raquo;"
+                 NextText="&rsaquo;"
+                 PreviousText="&lsaquo;"
+                 OnPageChanged="(async e => { CurrentPage = e; await GetInvoice();})">
+    </BlazorPager>
+</div>
+</body>
+<footer>
+    @if (hasFeedback)
+    {
+        <blockquote>@feedbackMessage</blockquote>
+    }
+    @if (hasError)
+    {
+        <blockquote>
+            @errorMessage
+            <ul>
+                @foreach (var detail in errorDetails)
+                {
+                    <li>@detail</li>
+                }
+            </ul>
+        </blockquote>
+    }
+</footer>

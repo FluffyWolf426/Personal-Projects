@@ -1,0 +1,68 @@
+﻿@page "/HogWild/EmployeeList"
+<PageTitle>Employee List</PageTitle>
+<h3>Employee List</h3>
+<header>
+    <h4>Search</h4>
+    <p>
+        <label>Last Name:</label>
+        <InputText id="lastName"
+                   Style="Width: 140px; background-color: lightgray"
+        @bind-Value="lastName" />
+    </p>
+    <p>
+        <label>Phone #:</label>
+        <InputText id="phoneNumber"
+                   Style="Width: 140px; background-color: lightgray"
+        @bind-Value="phoneNumber" />
+    </p>
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" @onclick="Search">Search</MudButton>
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" @onclick="New">New</MudButton>
+</header>
+<body>
+    @if (Employees.Count == 0)
+    {
+        <p><em>Please enter either a last name or phone number</em></p>
+    }
+    else
+    {
+        <TableTemplate Items="Employees" Context="EmployeeSearchView">
+            <TableHeader>
+                <th></th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>City</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </TableHeader>
+            <RowTemplate>
+                <td>
+                    <button class="btn-success" @onclick="() => EditEmployee(EmployeeSearchView.EmployeeID)">Edit</button>
+                </td>
+                <td>@EmployeeSearchView.FirstName</td>
+                <td>@EmployeeSearchView.LastName</td>
+                <td>@EmployeeSearchView.City</td>
+                <td>@EmployeeSearchView.Phone</td>
+                <td>@EmployeeSearchView.Email</td>
+            </RowTemplate>
+        </TableTemplate>
+    }
+</body>
+<footer>
+    @if (hasFeedback)
+    {
+        <blockquote>@feedbackMessage</blockquote>
+    }
+    @if (hasError)
+    {
+        <blockquote>
+            @errorMessage
+            <ul>
+                @foreach (var detail in errorDetails)
+                {
+                    <li>@detail</li>
+                }
+            </ul>
+        </blockquote>
+    }
+</footer>
+

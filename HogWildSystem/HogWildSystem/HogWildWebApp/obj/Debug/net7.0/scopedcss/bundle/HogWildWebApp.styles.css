@@ -1,0 +1,287 @@
+/* _content/HogWildWebApp/Pages/HogWild/CategoryLookupEdit.razor.rz.scp.css */
+.row[b-6rq7izygay] {
+    display: flex;
+}
+
+.column[b-6rq7izygay] {
+    flex: 50%;
+}
+/* _content/HogWildWebApp/Pages/HogWild/CustomerEdit.razor.rz.scp.css */
+/*.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}*/
+
+.row[b-ve030rrv5l] {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column[b-ve030rrv5l] {
+    flex: 1;
+    min-width: 0; /* Prevent flex items from growing too large */
+    padding: 0 15px; /* Spacing between columns */
+}
+
+.input-background[b-ve030rrv5l] {
+    width: 140px;
+    background-color: lightgray;
+}
+
+.form-actions[b-ve030rrv5l] {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.previous-purchases[b-ve030rrv5l] {
+    margin-top: 40px;
+}
+
+.form-container[b-ve030rrv5l] {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if needed */
+}
+
+.form-column[b-ve030rrv5l] {
+    flex: 50%; /* Each column takes up half the container width */
+    padding: 0 10px; /* Padding for spacing between fields */
+}
+
+.form-row[b-ve030rrv5l] {
+    margin-bottom: 20px; /* Spacing between each row */
+}
+
+.input-background[b-ve030rrv5l] {
+    width: 100%; /* Makes the input take the full width of its parent .form-row */
+    background-color: lightgray; /* Background color for inputs */
+}
+/* _content/HogWildWebApp/Pages/HogWild/EmployeeEdit.razor.rz.scp.css */
+.row[b-hsjmd64pfx] {
+    display: flex;
+}
+
+.column[b-hsjmd64pfx] {
+    flex: 50%;
+}
+/* _content/HogWildWebApp/Pages/HogWild/InvoiceEdit.razor.rz.scp.css */
+.row[b-uoy01upvfx] {
+    display: flex;
+}
+
+.column[b-uoy01upvfx] {
+    flex: 50%;
+}
+
+.stack-vertical[b-uoy01upvfx] {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.stack-horizontal[b-uoy01upvfx], .stack-horizontal-header[b-uoy01upvfx], .stack-horizontal-subtotal[b-uoy01upvfx] {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    font-size: x-large
+}
+
+.stack-horizontal-header[b-uoy01upvfx] {
+    justify-content: left;
+}
+
+.stack-horizontal-subtotal[b-uoy01upvfx] {
+    justify-content: right;
+}
+
+.remove_from_View_color[b-uoy01upvfx] {
+    background-color: gainsboro;
+    font-size: large;
+}
+
+.invalid_quantity_color[b-uoy01upvfx] {
+    background-color: lightcoral;
+    font-size: large;
+}
+/* _content/HogWildWebApp/Pages/HogWild/SimpleInvoiceEdit.razor.rz.scp.css */
+.row[b-pgy03slah7] {
+    display: flex;
+}
+
+.column[b-pgy03slah7] {
+    flex: 50%;
+}
+
+.stack-vertical[b-pgy03slah7] {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.stack-horizontal[b-pgy03slah7], .stack-horizontal-header[b-pgy03slah7], .stack-horizontal-subtotal[b-pgy03slah7] {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    font-size: x-large
+}
+
+.stack-horizontal-header[b-pgy03slah7] {
+    justify-content: left;
+}
+
+.stack-horizontal-subtotal[b-pgy03slah7] {
+    justify-content: right;
+}
+
+.remove_from_View_color[b-pgy03slah7] {
+    background-color: gainsboro;
+    font-size: large;
+}
+
+.invalid_quantity_color[b-pgy03slah7] {
+    background-color: lightcoral;
+    font-size: large;
+}
+/* _content/HogWildWebApp/Shared/MainLayout.razor.rz.scp.css */
+.page[b-09050rd1vq] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-09050rd1vq] {
+    flex: 1;
+}
+
+.sidebar[b-09050rd1vq] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-09050rd1vq] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-09050rd1vq]  a, .top-row .btn-link[b-09050rd1vq] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-09050rd1vq] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-09050rd1vq] {
+        display: none;
+    }
+
+    .top-row.auth[b-09050rd1vq] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-09050rd1vq], .top-row .btn-link[b-09050rd1vq] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-09050rd1vq] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-09050rd1vq] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-09050rd1vq] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-09050rd1vq], article[b-09050rd1vq] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/HogWildWebApp/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-asm1o0lq1q] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-asm1o0lq1q] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-asm1o0lq1q] {
+    font-size: 1.1rem;
+}
+
+.oi[b-asm1o0lq1q] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-asm1o0lq1q] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-asm1o0lq1q] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-asm1o0lq1q] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-asm1o0lq1q]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-asm1o0lq1q]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-asm1o0lq1q]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-asm1o0lq1q] {
+        display: none;
+    }
+
+    .collapse[b-asm1o0lq1q] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+    
+    .nav-scrollable[b-asm1o0lq1q] {
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}

@@ -1,0 +1,94 @@
+﻿@page "/HogWild/PartList"
+@using HogWildWebApp.BlazorPagination
+<PageTitle>Part List</PageTitle>
+<h3>Part List</h3>
+<header>
+    <h4>Search</h4>
+    <p>
+        <label>Categories:</label>
+        <InputSelect @bind-Value="categoryID" Style="Width: 140px; background-color: lightgray">
+            <option value="0">select ...</option>
+            @foreach (var category in partCategories)
+            {
+                <option value="@category.LookupID">@category.Name</option>
+            }
+        </InputSelect>
+    </p>
+    <p>
+        <label>Description:</label>
+        <InputText id="description"
+                   Style="Width: 140px; background-color: lightgray"
+        @bind-Value="description" />
+    </p>
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" @onclick="Search">Search</MudButton>
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" @onclick="New">New</MudButton>
+</header>
+<body>
+    @if (PaginatorParts.RowCount == 0)
+    {
+        <p><em>Please enter either a description or category</em></p>
+    }
+    else
+    {
+        <!--
+        NOTE: To use the Sort Icon, you must added the following to the _host.cshtml file
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        -->
+        <TableTemplate Items="PaginatorParts.Results" Context="PartView">
+            <TableHeader>
+                <th></th>
+                <th class="SortField @GetSortColumn("CategoryName")" @onclick="@( () => Sort("CategoryName"))">Category<i class="@(SetSortIcon("CategoryName"))"></i></th>
+                <th class="SortField @GetSortColumn("PartID")" @onclick="@( () => Sort("PartID"))">Part ID<i class="@(SetSortIcon("PartID"))"></i></th>
+                <th class="SortField @GetSortColumn("Description")" @onclick="@( () => Sort("Description"))">Description<i class="@(SetSortIcon("Description"))"></i></th>
+                <th class="SortField @GetSortColumn("Cost")" @onclick="@( () => Sort("Cost"))">Cost<i class="@(SetSortIcon("Cost"))"></i></th>
+                <th class="SortField @GetSortColumn("Price")" @onclick="@( () => Sort("Price"))">Price<i class="@(SetSortIcon("Price"))"></i></th>
+                <th class="SortField @GetSortColumn("ROL")" @onclick="@( () => Sort("ROL"))">ROL<i class="@(SetSortIcon("ROL"))"></i></th>
+                <th class="SortField @GetSortColumn("QOH")" @onclick="@( () => Sort("QOH"))">QOH<i class="@(SetSortIcon("QOH"))"></i></th>
+            </TableHeader>
+            <RowTemplate>
+                <td>
+                    <button class="btn-success" @onclick="() => EditPart(PartView.PartID)">Edit</button>
+                </td>
+                <td>@PartView.CategoryName</td>
+                <td>@PartView.PartID</td>
+                <td>@PartView.Description</td>
+                <td>@PartView.Cost</td>
+                <td>@PartView.Price</td>
+                <td>@PartView.ROL</td>
+                <td>@PartView.QOH</td>
+            </RowTemplate>
+        </TableTemplate>
+        <div align="center">
+            <BlazorPager CurrentPage="PaginatorParts.CurrentPage"
+                         PageCount="PaginatorParts.PageCount"
+                         VisiblePages="3"
+                         ShowFirstLast="true"
+                         ShowPageNumbers="true"
+                         FirstText="&laquo;"
+                         LastText="&raquo;"
+                         NextText="&rsaquo;"
+                         PreviousText="&lsaquo;"
+                         OnPageChanged="(async e => { CurrentPage = e; await Search();})">
+            </BlazorPager>
+        </div>
+    }
+</body>
+<footer>
+    @if (hasFeedback)
+    {
+        <blockquote>@feedbackMessage</blockquote>
+    }
+    @if (hasError)
+    {
+        <blockquote>
+            @errorMessage
+            <ul>
+                @foreach (var detail in errorDetails)
+                {
+                    <li>@detail</li>
+                }
+            </ul>
+        </blockquote>
+    }
+</footer>
+

@@ -1,0 +1,98 @@
+﻿@page "/HogWild/PartEdit/{PartID:int}"
+<PageTitle>Part Edit</PageTitle>
+<header>
+    <h3>
+        Part Edit @if (PartID == 0)
+        {
+            <h5>New Part</h5>
+        }
+        else
+        {
+            <h5>@part.Description</h5>
+        }
+    </h3>
+</header>
+<body>
+    <EditForm EditContext="editContext">
+        @{
+            //  The DataAnnotationsValidator is the standard validator type in Blazor.
+            //  Adding this component within an EditForm component will enable form
+            //      validation
+        }
+        <DataAnnotationsValidator />
+        <p>
+            <label>Category:</label>
+            <InputSelect @bind-Value="part.PartCategoryID" Style="Width: 140px; background-color: lightgray">
+                <option value="0">select ...</option>
+                @foreach (var prov in categories)
+                {
+                    <option value="@prov.LookupID">@prov.Name</option>
+                }
+            </InputSelect>
+            <ValidationMessage For="() => part.PartCategoryID" />
+        </p>
+        <p>
+            <label>Description:</label>
+            <InputText id="description"
+                       Style="Width: 140px; background-color: lightgray"
+            @bind-Value="part.Description" />
+            <ValidationMessage For="() => part.Description" />
+        </p>
+        <p>
+            <label>Cost:</label>
+            <InputNumber id="cost"
+                       Style="Width: 140px; background-color: lightgray"
+            @bind-Value="part.Cost" />
+            <ValidationMessage For="() => part.Cost" />
+        </p>
+        <p>
+            <label>Price:</label>
+            <InputNumber id="price"
+                       Style="Width: 140px; background-color: lightgray"
+            @bind-Value="part.Price" />
+            <ValidationMessage For="() => part.Price" />
+        </p>
+        <p>
+            <label>Reorder Level:</label>
+            <InputNumber id="rol"
+                       Style="Width: 140px; background-color: lightgray"
+            @bind-Value="part.ROL" />
+            <ValidationMessage For="() => part.ROL" />
+        </p>
+        <p>
+            <label>Quantity on Hand:</label>
+            <InputNumber id="qoh"
+                       Style="Width: 140px; background-color: lightgray"
+            @bind-Value="part.QOH" />
+            <ValidationMessage For="() => part.QOH" />
+        </p>
+        <p>
+            <label>Taxable:</label>
+            <InputCheckbox id="taxable"
+                       Style="Width: 140px; background-color: lightgray"
+            @bind-Value="part.Taxable" />
+            <ValidationMessage For="() => part.Taxable" />
+        </p>
+    </EditForm>
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" disabled="@disableSaveButton" @onclick="Save">Save</MudButton>
+    <MudButton Variant="Variant.Filled" Color="@closeButtonColor" @onclick="Cancel">@closeButtonText</MudButton>
+
+</body>
+<footer>
+    @if (hasFeedback)
+    {
+        <blockquote>@feedbackMessage</blockquote>
+    }
+    @if (hasError)
+    {
+        <blockquote>
+            @errorMessage
+            <ul>
+                @foreach (var detail in errorDetails)
+                {
+                    <li>@detail</li>
+                }
+            </ul>
+        </blockquote>
+    }
+</footer>

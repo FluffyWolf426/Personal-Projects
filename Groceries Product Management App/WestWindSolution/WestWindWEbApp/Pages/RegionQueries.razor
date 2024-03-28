@@ -1,0 +1,63 @@
+﻿@page "/regions"
+<PageTitle>Region Queries</PageTitle>
+@using WestWindSystem.Entities;
+<h3>Region Queries</h3>
+
+<br />
+@if (feedbackMessage.Length > 0)
+{
+    <div class="alert alert-info">
+        @feedbackMessage
+    </div>
+}
+<!-- this area will handle the display of a collection of error messages
+     this collection can be of any type: array, List, Dictionary,...
+
+     in this example we will use a Dictionary
+-->
+@if (errorDictionary.Count() > 0)
+{
+    <div class="alert alert-danger">
+        <p>Please fix the following issues:</p>
+        <ul>
+            @foreach (var message in errorDictionary.Values)
+            {
+                <li>@message</li>
+            }
+        </ul>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-6 text-center">
+        <!-- Left block -->
+        <label for="forregionarg">Enter a region id:</label>&nbsp;&nbsp;
+        <input type="number" @bind="regionarg" />&nbsp;&nbsp;
+        <button type="submit" @onclick="InputProcess" class="btn btn-primary">Fetch By ID</button>
+        <br/><br/>
+        <label for="forregionselect">Select a region</label>&nbsp;&nbsp;
+        <select form="forregionselect" @bind="regionselectarg">
+            <option value="0">select ...</option> <!-- a prompt line-->
+            @foreach(var item in regionData)
+            {
+                <option value="@item.RegionID">@item.RegionDescription</option>
+            }
+        </select>&nbsp;&nbsp;
+        <button type="submit" @onclick="SelectProcess" class="btn btn-success">Select By ID</button>
+    </div>
+     <div class="col-md-6 text-center">
+          <!-- rigth block -->
+        @if (regionInfo == null)
+        {
+            <p>No data found for requested query</p>
+        }
+        else
+        {
+            <p>Region Id: @regionInfo.RegionID</p>
+            <p>REgion Name: @regionInfo.RegionDescription </p>
+        }
+    </div>
+</div>
+@code {
+   
+}

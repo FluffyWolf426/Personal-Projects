@@ -1,0 +1,141 @@
+﻿@page "/HogWild/InvoiceEdit/{InvoiceID:int}/{CustomerID:int}/{EmployeeID:int}"
+@using HogWildSystem.ViewModels
+<PageTitle>Invoice Edit</PageTitle>
+<header>
+    @if (InvoiceID == 0)
+    {
+        <h3>New Invoice</h3>
+    }
+    else
+    {
+        <h3>Invoice: @InvoiceID</h3>
+    }
+
+</header>
+<body>
+    <!--
+    https://www.pragimtech.com/blog/blazor/validating-complex-models-in-blazor/
+    https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0
+    -->
+    @if (CustomerID > 0 && InvoiceID > 0)
+    {
+        <h5>NOTE: Removed Invoices Lines are being retrieve however normal we would not show them and treat them as deleted/remove</h5>
+    }
+
+    @if (CustomerID < 0 && InvoiceID > 0)
+    {
+        <h5>NOTE: Because this is a view of the customer invoice, we have removed Invoices Lines and treat them as deleted/remove</h5>
+    }
+    <EditForm Model="invoice.InvoiceLines">
+        @* <EditForm EditContext="editContext"> *@
+        @{
+            //  The DataAnnotationsValidator is the standard validator type in Blazor.
+            //  Adding this component within an EditForm component will enable form
+            //      validation
+        }
+
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="row">
+            <p style="white-space: pre-line" />
+            @* <div class="stack-horizontal-header"> *@
+            <h4> Invoice Date: @invoice.InvoiceDate.Date.ToShortDateString()</h4>
+            <h4> Employee: @invoice.EmployeeName</h4>
+            <h4>Customer: @invoice.CustomerName</h4>
+            @* </div> *@
+        </div>
+        <div>
+            <TableTemplate Items="invoice.InvoiceLines" Context="InvoiceLineView">
+                <TableHeader>
+                    @* Hide header captions if we are viewing invoices *@
+                    @if (CustomerID > 0)
+                    {
+                        <th></th>
+                    }
+                    <th>Part ID</th>
+                    <th>Description</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Ext. Price</th>
+                </TableHeader>
+                <RowTemplate>
+                    @* Hide buttons if we are viewing invoices *@
+                    @if (CustomerID > 0)
+                    {
+                        <td>
+                            <MudButton Variant="Variant.Filled" Color="Color.Warning" @onclick="(() => ToggleRemoveFromView(InvoiceLineView.InvoiceLineID))">@ToggleRemoveFromViewText(@InvoiceLineView.RemoveFromViewFlag)</MudButton>
+                        </td>
+                    }
+                    <td class="@RowBackgroundColor(InvoiceLineView.RemoveFromViewFlag)">@InvoiceLineView.PartID</td>
+                    <td class="@RowBackgroundColor(InvoiceLineView.RemoveFromViewFlag)">@InvoiceLineView.Description</td>
+                    @if (CustomerID > 0)
+                    {
+                        <td class="@ValidateQuantity(InvoiceLineView.InvoiceLineID)">
+                            <MudTextField T="int" InputType="InputType.Number"
+                            @bind-value="@InvoiceLineView.Quantity"
+                                          Variant="Variant.Outlined" Margin="Margin.Dense"
+                                          TextChanged="UpdateSubtotalAndTax" />
+                            <ValidationMessage For="() => InvoiceLineView.Quantity" />
+                        </td>
+                    }
+                    else
+                    {
+                        <td class="@RowBackgroundColor(InvoiceLineView.RemoveFromViewFlag)">@InvoiceLineView.Quantity</td>
+                    }
+                    <td class="@RowBackgroundColor(InvoiceLineView.RemoveFromViewFlag)">@InvoiceLineView.Price</td>
+                    <td class="@RowBackgroundColor(InvoiceLineView.RemoveFromViewFlag)">@InvoiceLineView.ExtentPrice</td>
+                </RowTemplate>
+            </TableTemplate>
+        </div>
+        <div class="row">
+            <div class="stack-vertical">
+                <p>---------------------------</p>
+                <p>SubTotal: @invoice.SubTotal.ToString("c")</p>
+                <p>Tax: @invoice.Tax.ToString("c")</p>
+                <p>==============</p>
+                <p><strong>Total: @invoice.Total.ToString("c")</strong></p>
+            </div>
+        </div>
+    </EditForm>
+    <div>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" disabled="@enableSaveButton" @onclick="Save">Save</MudButton>
+        <MudButton Variant="Variant.Filled" Color="@closeButtonColor" @onclick="Cancel">@closeButtonText</MudButton>
+    </div>
+</body>
+<footer>
+    @if (hasFeedback)
+    {
+        <p style="white-space: pre-line" />
+        <blockquote>@feedbackMessage</blockquote>
+        <p style="white-space: pre-line" />
+    }
+    @if (!editContext.Validate())
+    {
+        <p style="white-space: pre-line" />
+        <h3>--------------------------------------------</h3>
+        <blockquote>
+            <ul>
+                @foreach (var detail in editContext.GetValidationMessages())
+                {
+                    <li><h3>@detail</h3></li>
+                }
+            </ul>
+        </blockquote>
+        <h3>--------------------------------------------</h3>
+        <p style="white-space: pre-line" />
+    }
+    @if (hasError)
+    {
+        <h3>--------------------------------------------</h3>
+        <blockquote>
+            @errorMessage
+            <ul>
+                @foreach (var detail in errorDetails)
+                {
+                    <li><h3>@detail</h3></li>
+                }
+            </ul>
+        </blockquote>
+        <h3>--------------------------------------------</h3>
+    }
+</footer>

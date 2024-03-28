@@ -1,0 +1,12 @@
+﻿<MudDialog>
+    <DialogContent>
+        <MudText>@ContentText</MudText>
+        <InputText id="editValue"
+                   Style="Width: 140px; background-color: lightgray"
+        @bind-Value="editValue" />
+    </DialogContent>
+    <DialogActions>
+        <MudButton Color="Color.Success" Variant="Variant.Filled" OnClick="Submit">Save</MudButton>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+    </DialogActions>
+</MudDialog>

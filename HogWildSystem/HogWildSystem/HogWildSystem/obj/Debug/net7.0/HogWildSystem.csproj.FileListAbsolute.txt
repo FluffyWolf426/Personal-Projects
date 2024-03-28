@@ -1,0 +1,24 @@
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildSystem\bin\Debug\net7.0\HogWildSystem.deps.json
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildSystem\bin\Debug\net7.0\HogWildSystem.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildSystem\bin\Debug\net7.0\HogWildSystem.pdb
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.csproj.AssemblyReference.cache
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.AssemblyInfoInputs.cache
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.AssemblyInfo.cs
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.csproj.CoreCompileInputs.cache
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildSystem\obj\Debug\net7.0\refint\HogWildSystem.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.pdb
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildSystem\obj\Debug\net7.0\ref\HogWildSystem.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildSystem\bin\Debug\net7.0\HogWildSystem.deps.json
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildSystem\bin\Debug\net7.0\HogWildSystem.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildSystem\bin\Debug\net7.0\HogWildSystem.pdb
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.csproj.AssemblyReference.cache
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.AssemblyInfoInputs.cache
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.AssemblyInfo.cs
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.csproj.CoreCompileInputs.cache
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildSystem\obj\Debug\net7.0\refint\HogWildSystem.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildSystem\obj\Debug\net7.0\HogWildSystem.pdb
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildSystem\obj\Debug\net7.0\ref\HogWildSystem.dll

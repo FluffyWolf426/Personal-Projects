@@ -1,0 +1,52 @@
+/*.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}*/
+
+.row[b-ve030rrv5l] {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column[b-ve030rrv5l] {
+    flex: 1;
+    min-width: 0; /* Prevent flex items from growing too large */
+    padding: 0 15px; /* Spacing between columns */
+}
+
+.input-background[b-ve030rrv5l] {
+    width: 140px;
+    background-color: lightgray;
+}
+
+.form-actions[b-ve030rrv5l] {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.previous-purchases[b-ve030rrv5l] {
+    margin-top: 40px;
+}
+
+.form-container[b-ve030rrv5l] {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if needed */
+}
+
+.form-column[b-ve030rrv5l] {
+    flex: 50%; /* Each column takes up half the container width */
+    padding: 0 10px; /* Padding for spacing between fields */
+}
+
+.form-row[b-ve030rrv5l] {
+    margin-bottom: 20px; /* Spacing between each row */
+}
+
+.input-background[b-ve030rrv5l] {
+    width: 100%; /* Makes the input take the full width of its parent .form-row */
+    background-color: lightgray; /* Background color for inputs */
+}

@@ -1,0 +1,403 @@
+﻿@page "/productcrud/{ProductId:int?}"
+@using WestWindSystem.Entities
+@using WestWindSystem.BLL
+@* this injection statement brings in a javascript runtime set of services
+   this inject could also be done in your code block using the annotation
+*@
+@inject IJSRuntime JSRunTime
+
+<PageTitle>Product CRUD</PageTitle>
+
+<h3>Product CRUD</h3>
+
+@if (feedbackMessage != null)
+{
+    <div class="alert alert-info">
+        @feedbackMessage
+    </div>
+}
+
+<fieldset>
+    <div class="mb-3">
+        <label for="ProductId" class="form-label">Product ID</label>
+        <input @bind="CurrentProduct.ProductID"
+               type="number"
+               class="form-control"
+               id="ProductId"
+               readonly>
+    </div>
+    <div class="mb-3">
+        <label for="productName" class="form-label">Product Name</label>
+        <input @bind="CurrentProduct.ProductName"
+               type="text"
+               class="form-control"
+               id="productName">
+    </div>
+    <div class="mb-3">
+        <label for="UnitPrice" class="form-label">Unit Price</label>
+        <input @bind="CurrentProduct.UnitPrice"
+               type="number"
+               class="form-control"
+               id="UnitPrice">
+    </div>
+    <div class="mb-3">
+        <label for="categoryid" class="form-label">Category</label>
+        <select @bind="CurrentProduct.CategoryID"
+                type="text"
+                class="form-control"
+                id="categoryid">
+
+            <option value="0">--- select a category---</option>
+            @foreach (var currentCategory in categories)
+            {
+                <option value="@currentCategory.CategoryID"
+                        selected="@(currentCategory.CategoryID == CurrentProduct.CategoryID)">
+                    @currentCategory.CategoryName
+                </option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="supplierid" class="form-label">Supplier</label>
+        <select @bind="CurrentProduct.SupplierID"
+                type="text"
+                class="form-control"
+                id="supplierid">
+
+            <option value="0">--- select a supplier---</option>
+            @foreach (var currentSupplier in suppliers)
+            {
+                <option value="@currentSupplier.SupplierID"
+                        selected="@(currentSupplier.SupplierID == CurrentProduct.SupplierID)">
+                    @currentSupplier.CompanyName
+                </option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="QuantityPerUnit" class="form-label">Quantity Per Unit</label>
+        <input @bind="CurrentProduct.QuantityPerUnit"
+               type="text"
+               class="form-control"
+               id="QuantityPerUnit">
+    </div>
+
+    <div class="mb-3">
+        <label for="MinimumOrderQuantity" class="form-label">MinimumOrderQuantity</label>
+        <input @bind="CurrentProduct.MinimumOrderQuantity"
+               type="text"
+               class="form-control"
+               id="MinimumOrderQuantity">
+    </div>
+
+    <div class="mb-3">
+        <label for="UnitsOnOrder" class="form-label">Units On Order</label>
+        <input @bind="CurrentProduct.UnitsOnOrder"
+               type="number"
+               class="form-control"
+               id="UnitsOnOrder">
+    </div>
+
+</fieldset>
+<div>
+    @* this area will be for the page buttons *@
+    <button @onclick="OnClickSave"
+            class="btn btn-primary rounded-pill" style="width:267px">
+        @(CurrentProduct.ProductID == 0 ? "Create" : "Update")
+    </button>
+    &nbsp;&nbsp;
+    @*    <button @onclick="OnClickUpdate"
+    class="btn btn-primary rounded-pill" style="width:267px">
+    Update
+    </button>
+    &nbsp;&nbsp; *@
+    @if (CurrentProduct.ProductID > 0)
+    {
+        if (CurrentProduct.Discontinued)
+        {
+            @*   <button @onclick="OnClickDiscontinue" disabled="true"
+    class="btn btn-primary rounded-pill" style="width:267px">
+    Discontinue
+    </button>
+    <span>&nbsp;&nbsp;</span> *@
+            <button @onclick="OnClickDiscontinue"
+                    class="btn btn-outline-danger rounded-pill" style="width:267px">
+                Activate
+            </button>
+        }
+        else
+        {
+            <button @onclick="OnClickDiscontinue"
+                    class="btn btn-primary rounded-pill" style="width:267px">
+                Discontinue
+            </button>
+            @*  <span>&nbsp;&nbsp;</span>
+    <button @onclick="OnClickDiscontinue" disabled="true"
+    class="btn btn-outline-primary rounded-pill" style="width:267px">
+    Activate
+    </button> *@
+        }
+    }
+    &nbsp; &nbsp;
+    <button @onclick="OnClickClear"
+            class="btn btn-outline-info rounded-pill" style="width:267px">
+        Clear
+    </button>
+    &nbsp;&nbsp;
+    <button @onclick="OnClickReturnProductSelection"
+            class="btn btn-secondary rounded-pill" style="width:267px">
+        Go to <br />Product Selection
+    </button>
+
+</div>
+
+@code {
+
+    //the Parameter attribute is required on this property
+    //      as the property is being used to receive a routing parameter
+    //      on the page directive (see top of file)
+    [Parameter]
+    public int? ProductId { get; set; }
+
+    private string? feedbackMessage;
+
+    [Inject]
+    private ProductServices _productServices { get; set; }
+    private Product CurrentProduct = new();
+
+    [Inject]
+    private CategoryServices _categoryServices { get; set; }
+    private List<Category> categories = new();
+
+    // private int selectedCategoryId;
+    [Inject]
+    private SupplierServices _supplierServices { get; set; }
+    private List<Supplier> suppliers = new();
+
+    // private int selectedSupplierId;
+
+    [Inject]
+    protected NavigationManager CurrentNavigationManager { get; set; }
+
+    protected override void OnInitialized()
+    {
+        categories = _categoryServices.Category_GetList();
+        suppliers = _supplierServices.Supplier_GetList();
+
+        //check the ProductId parameter to determine if the page is
+        //  currently being used to add a new product or adjust an existing
+        //  product
+        if (ProductId != null)
+        {
+            //this means the page will be used in edit mode
+            CurrentProduct = _productServices.Product_GetByID(ProductId.Value);
+        }
+
+    }
+
+    private Exception GetInnerException(Exception ex)
+    {
+        while (ex.InnerException != null)
+            ex = ex.InnerException;
+        return ex;
+    }
+
+    #region button events
+    private void OnClickReturnProductSelection()
+    {
+        CurrentNavigationManager.NavigateTo($"/categoryproducts/{CurrentProduct.CategoryID}");
+    }
+
+    private void OnClickSave()
+    {
+        try
+        {
+            //since the input controls have been bound to an instance of Product
+            //the data will already exist in an instance of the entity to pass to the service
+
+            //OPTIONAL: you can do validation of data at this point
+            //          consider limiting it to primitive validation (datatype, range, limits, presents)
+
+            //example: Category must be picked
+            if (CurrentProduct.CategoryID == 0)
+            {
+                throw new ArgumentException("You must select a category");
+            }
+
+            if (CurrentProduct.ProductID == 0)
+            {
+                //this is a new product, Discontinued will be set to false
+                //assume primitive validation has been passed
+
+                //if you used individual field in your binding, you would have to create an instance
+                //  of Product using the individual fields on the constructor
+                int newProductID = _productServices.Product_Add(CurrentProduct);
+
+                //communicate the results to the user
+                CurrentProduct.ProductID = newProductID;
+                feedbackMessage = $"Product (ID:{newProductID} has been added.";
+            }
+            else
+            {
+                //if you used individual field in your binding, you would have to create an instance
+                //  of Product using the individual fields on the constructor
+                int rowsaffected = _productServices.Product_Update(CurrentProduct);
+
+                //communicate the results to the user
+                if (rowsaffected == 0)
+                {
+                    //no updated done
+                    feedbackMessage = $"Product (ID:{CurrentProduct.ProductID} has been not been updated."
+                        + " Check to see if product is still on file";
+                }
+                else
+                {
+                    //update done
+                    feedbackMessage = $"Product (ID:{CurrentProduct.ProductID} has been updated.";
+                }
+            }
+
+        }
+        catch (ArgumentNullException ex)
+        {
+            feedbackMessage = $"Save Error: {GetInnerException(ex).Message}";
+        }
+        catch (ArgumentException ex)
+        {
+            feedbackMessage = $"Save Error: {GetInnerException(ex).Message}";
+        }
+        catch (Exception ex)
+        {
+            feedbackMessage = $"System Error: {GetInnerException(ex).Message}";
+        }
+    }
+
+    private void OnClickUpdate()
+    {
+        try
+        {
+            //all of the validation done in ADD will still
+            //  need to be done in update
+
+            //example: Category must be picked
+            if (CurrentProduct.CategoryID == 0)
+            {
+                throw new ArgumentException("You must select a category");
+            }
+
+            //this is an existing product, Discontinued will be set by
+            //   the system
+
+            //if you used individual field in your binding, you would have to create an instance
+            //  of Product using the individual fields on the constructor
+            int rowsaffected = _productServices.Product_Update(CurrentProduct);
+
+            //communicate the results to the user
+            if (rowsaffected == 0)
+            {
+                //no updated done
+                feedbackMessage = $"Product (ID:{CurrentProduct.ProductID} has been not been updated."
+                    + " Check to see if product is still on file";
+            }
+            else
+            {
+                //update done
+                feedbackMessage = $"Product (ID:{CurrentProduct.ProductID} has been updated.";
+            }
+
+        }
+        catch (ArgumentNullException ex)
+        {
+            feedbackMessage = $"Save Error: {GetInnerException(ex).Message}";
+        }
+        catch (ArgumentException ex)
+        {
+            feedbackMessage = $"Save Error: {GetInnerException(ex).Message}";
+        }
+        catch (Exception ex)
+        {
+            feedbackMessage = $"System Error: {GetInnerException(ex).Message}";
+        }
+    }
+
+    private void OnClickDiscontinue()
+    {
+        try
+        {
+            //all of the validation done in ADD will still
+            //  need to be done in update
+
+            //example: Product must be picked
+            if (CurrentProduct.ProductID == 0)
+            {
+                throw new ArgumentException("You must select a product to discontinue or activate.");
+            }
+
+            //this is an existing product, Discontinued will be set by
+            //   the service
+
+            //if you used individual field in your binding, you would have to create an instance
+            //  of Product using the individual fields on the constructor
+            int rowsaffected = _productServices.Product_PhysicalDelete(CurrentProduct);
+
+            //communicate the results to the user
+            //due to the fact and way we are using the Entities to transfer data; the fact that
+            //  the service altered the Discontinued field; when you return to the web server
+            //  that data comes with you. Thus at this point the data value for CurrentProduct
+            //  is now what is on the database
+
+            if (rowsaffected == 0)
+            {
+                //no updated done
+                feedbackMessage = $"Product (ID:{CurrentProduct.ProductID} has been not been discontinued/activated."
+                    + " Check to see if product is still on file";
+            }
+            else
+            {
+                if (CurrentProduct.Discontinued)
+                {
+                    //discontinued
+                    feedbackMessage = $"Product (ID:{CurrentProduct.ProductID} has been discontinued.";
+                }
+                else
+                {
+                    //activation
+                    feedbackMessage = $"Product (ID:{CurrentProduct.ProductID} has been activated.";
+                }
+
+            }
+
+        }
+        catch (ArgumentNullException ex)
+        {
+            feedbackMessage = $"Discontinued Error: {GetInnerException(ex).Message}";
+        }
+        catch (ArgumentException ex)
+        {
+            feedbackMessage = $"Discontinued Error: {GetInnerException(ex).Message}";
+        }
+        catch (Exception ex)
+        {
+            feedbackMessage = $"System Error: {GetInnerException(ex).Message}";
+        }
+    }
+
+    //the returndatatype needs to change from void to async Task due to the running
+    //  of the javascript command
+    private async Task OnClickClear()
+    {
+        //prompt message to ask for confirmation to complete the action
+        object[] messageline = new object[] {"Are you sure you want to clear the form."
+             + " Unsaved data will be lost."};
+        if (await JSRunTime.InvokeAsync<bool>("confirm", messageline))
+        {
+            // feedbackMessage = "You have cleared the form";
+            if (CurrentProduct.ProductID == 0)
+            {
+                //clear for new products
+                CurrentProduct = new Product();
+            }
+        }
+    }
+    #endregion
+}

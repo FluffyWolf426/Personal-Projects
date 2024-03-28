@@ -1,0 +1,54 @@
+﻿@page "/HogWild/CategoryLookupEdit"
+<PageTitle>Category Lookup CategoryEdit</PageTitle>
+<header>
+    <h3>Category Lookup CategoryEdit</h3>
+</header>
+<body>
+    <div class="row">
+        <b>Category</b>
+        <p>
+            <label>Categories:</label>
+            <InputSelect @bind-Value="CategoryID" Style="Width: 140px; background-color: lightgray">
+                <option value="0">select ...</option>
+                @foreach (var category in categories)
+                {
+                    <option value="@category.CategoryID">@category.CategoryName</option>
+                }
+            </InputSelect>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" disabled="@disableEdit" @onclick="CategoryEdit">Edit</MudButton>
+        </p>
+    </div>
+    <div class="row">
+        <b>Lookup</b>
+        <p>
+            <label>Lookups:</label>
+            <InputSelect @bind-Value="lookupID" Style="Width: 140px; background-color: lightgray">
+                <option value="0">select ...</option>
+                @foreach (var lookup in lookups)
+                {
+                    <option value="@lookup.LookupID">@lookup.Name</option>
+                }
+            </InputSelect>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" disabled="@disableEdit" @onclick="LookupAdd">Add</MudButton>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" disabled="@disableLookupEdit" @onclick="LookupEdit">Edit</MudButton>
+        </p>
+    </div>
+</body>
+<footer>
+    @if (hasFeedback)
+    {
+        <blockquote>@feedbackMessage</blockquote>
+    }
+    @if (hasError)
+    {
+        <blockquote>
+            @errorMessage
+            <ul>
+                @foreach (var detail in errorDetails)
+                {
+                    <li>@detail</li>
+                }
+            </ul>
+        </blockquote>
+    }
+</footer>

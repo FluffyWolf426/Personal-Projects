@@ -1,0 +1,7 @@
+.row[b-hsjmd64pfx] {
+    display: flex;
+}
+
+.column[b-hsjmd64pfx] {
+    flex: 50%;
+}

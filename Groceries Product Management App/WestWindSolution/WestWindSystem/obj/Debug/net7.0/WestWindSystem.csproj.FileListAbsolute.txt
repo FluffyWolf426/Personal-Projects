@@ -1,0 +1,24 @@
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\WestWindSolution\WestWindSystem\bin\Debug\net7.0\WestWindSystem.deps.json
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\WestWindSolution\WestWindSystem\bin\Debug\net7.0\WestWindSystem.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\WestWindSolution\WestWindSystem\bin\Debug\net7.0\WestWindSystem.pdb
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.csproj.AssemblyReference.cache
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.AssemblyInfoInputs.cache
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.AssemblyInfo.cs
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.csproj.CoreCompileInputs.cache
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\WestWindSolution\WestWindSystem\obj\Debug\net7.0\refint\WestWindSystem.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.pdb
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\WestWindSolution\WestWindSystem\obj\Debug\net7.0\ref\WestWindSystem.dll
+C:\Users\v1ktb\Documents\Desktop Files\WestWindSolution\WestWindSystem\bin\Debug\net7.0\WestWindSystem.deps.json
+C:\Users\v1ktb\Documents\Desktop Files\WestWindSolution\WestWindSystem\bin\Debug\net7.0\WestWindSystem.dll
+C:\Users\v1ktb\Documents\Desktop Files\WestWindSolution\WestWindSystem\bin\Debug\net7.0\WestWindSystem.pdb
+C:\Users\v1ktb\Documents\Desktop Files\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.csproj.AssemblyReference.cache
+C:\Users\v1ktb\Documents\Desktop Files\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v1ktb\Documents\Desktop Files\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.AssemblyInfoInputs.cache
+C:\Users\v1ktb\Documents\Desktop Files\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.AssemblyInfo.cs
+C:\Users\v1ktb\Documents\Desktop Files\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.csproj.CoreCompileInputs.cache
+C:\Users\v1ktb\Documents\Desktop Files\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.dll
+C:\Users\v1ktb\Documents\Desktop Files\WestWindSolution\WestWindSystem\obj\Debug\net7.0\refint\WestWindSystem.dll
+C:\Users\v1ktb\Documents\Desktop Files\WestWindSolution\WestWindSystem\obj\Debug\net7.0\WestWindSystem.pdb
+C:\Users\v1ktb\Documents\Desktop Files\WestWindSolution\WestWindSystem\obj\Debug\net7.0\ref\WestWindSystem.dll

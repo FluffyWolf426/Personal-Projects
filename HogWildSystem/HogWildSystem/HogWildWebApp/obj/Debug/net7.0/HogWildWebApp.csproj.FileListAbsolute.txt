@@ -1,0 +1,208 @@
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.csproj.AssemblyReference.cache
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.AssemblyInfoInputs.cache
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.AssemblyInfo.cs
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.csproj.CoreCompileInputs.cache
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.MvcApplicationPartsAssemblyInfo.cs
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.MvcApplicationPartsAssemblyInfo.cache
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.RazorAssemblyInfo.cache
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.RazorAssemblyInfo.cs
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\appsettings.Development.json
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\appsettings.json
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildWebApp.staticwebassets.runtime.json
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildWebApp.exe
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildWebApp.deps.json
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildWebApp.runtimeconfig.json
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildWebApp.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildWebApp.pdb
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Azure.Core.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Azure.Identity.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Humanizer.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.JSInterop.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\MudBlazor.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.CodeDom.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Memory.Data.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildSystem.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildSystem.pdb
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets\msbuild.HogWildWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets\msbuild.build.HogWildWebApp.props
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HogWildWebApp.props
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HogWildWebApp.props
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets.pack.json
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets.build.json
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets.development.json
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Pages\HogWild\CustomerEdit.razor.rz.scp.css
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Pages\HogWild\EmployeeEdit.razor.rz.scp.css
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\bundle\HogWildWebApp.styles.css
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\projectbundle\HogWildWebApp.bundle.scp.css
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.csproj.CopyComplete
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\refint\HogWildWebApp.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.pdb
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.genruntimeconfig.cache
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\ref\HogWildWebApp.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Pages\HogWild\CategoryLookupEdit.razor.rz.scp.css
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Pages\HogWild\InvoiceEdit.razor.rz.scp.css
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Reactive.dll
+E:\OneDrive - NAIT\DMIT 2018 - Course Files\BlazorDemo-TransactionServices\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Pages\HogWild\SimpleInvoiceEdit.razor.rz.scp.css
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\appsettings.json
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildWebApp.staticwebassets.runtime.json
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildWebApp.exe
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildWebApp.deps.json
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildWebApp.runtimeconfig.json
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildWebApp.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildWebApp.pdb
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Humanizer.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\MudBlazor.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildSystem.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\bin\Debug\net7.0\HogWildSystem.pdb
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.csproj.AssemblyReference.cache
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.AssemblyInfoInputs.cache
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.AssemblyInfo.cs
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.csproj.CoreCompileInputs.cache
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.RazorAssemblyInfo.cache
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.RazorAssemblyInfo.cs
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets\msbuild.HogWildWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets\msbuild.build.HogWildWebApp.props
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HogWildWebApp.props
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HogWildWebApp.props
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Pages\HogWild\CategoryLookupEdit.razor.rz.scp.css
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Pages\HogWild\CustomerEdit.razor.rz.scp.css
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Pages\HogWild\EmployeeEdit.razor.rz.scp.css
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Pages\HogWild\InvoiceEdit.razor.rz.scp.css
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Pages\HogWild\SimpleInvoiceEdit.razor.rz.scp.css
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\bundle\HogWildWebApp.styles.css
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\scopedcss\projectbundle\HogWildWebApp.bundle.scp.css
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.csproj.CopyComplete
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\refint\HogWildWebApp.dll
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.pdb
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.genruntimeconfig.cache
+C:\Users\v1ktb\OneDrive - NAIT\Desktop\Winter 2024\Intermediate Application Development\HogWild Full System - Aug 2023\HogWildSystem\HogWildSystem\HogWildWebApp\obj\Debug\net7.0\ref\HogWildWebApp.dll

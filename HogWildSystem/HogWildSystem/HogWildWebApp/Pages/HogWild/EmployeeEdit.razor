@@ -1,0 +1,138 @@
+﻿@page "/HogWild/EmployeeEdit/{EmployeeID:int}"
+<PageTitle>Employee Edit</PageTitle>
+<header>
+    <h3>
+        Employee Edit @if (EmployeeID == 0)
+        {
+            <h5>New Employee</h5>
+        }
+        else
+        {
+            <h5>@employee.LastName</h5>
+        }
+    </h3>
+</header>
+<body>
+    <EditForm EditContext="editContext">
+        @{
+            //  The DataAnnotationsValidator is the standard validator type in Blazor.
+            //  Adding this component within an EditForm component will enable form
+            //      validation
+        }
+        <DataAnnotationsValidator />
+        <div class="row">
+            <div class="column">
+                <p>
+                    <label>First Name:</label>
+                    <InputText InputText id="firstName"
+                               Style="Width: 140px; background-color: lightgray"
+                    @bind-Value="employee.FirstName" />
+                    <ValidationMessage For="() => employee.FirstName" />
+                </p>
+                <p>
+                    <label>Last Name:</label>
+                    <InputText id="lastName"
+                               Style="Width: 140px; background-color: lightgray"
+                    @bind-Value="employee.LastName" />
+                    <ValidationMessage For="() => employee.LastName" />
+                </p>
+                <p>
+                    <label>Address1:</label>
+                    <InputText id="address1"
+                               Style="Width: 140px; background-color: lightgray"
+                    @bind-Value="employee.Address1" />
+                </p>
+                <p>
+                    <label>Address2:</label>
+                    <InputText id="address2"
+                               Style="Width: 140px; background-color: lightgray"
+                    @bind-Value="employee.Address2" />
+                </p>
+                <p>
+                    <label>City:</label>
+                    <InputText id="city"
+                               Style="Width: 140px; background-color: lightgray"
+                    @bind-Value="employee.City" />
+                </p>
+                <p>
+                    <label>Province:</label>
+                    <InputSelect @bind-Value="employee.ProvStateID" Style="Width: 140px; background-color: lightgray">
+                        <option value="0">select ...</option>
+                        @foreach (var prov in provinces)
+                        {
+                            <option value="@prov.LookupID">@prov.Name</option>
+                        }
+                    </InputSelect>
+                </p>
+                <p>
+                    <label>Country:</label>
+                    <InputSelect @bind-Value="employee.CountryID" Style="Width: 140px; background-color: lightgray">
+                        <option value="0">select ...</option>
+                        @foreach (var country in countries)
+                        {
+                            <option value="@country.LookupID">@country.Name</option>
+                        }
+                    </InputSelect>
+                </p>
+                <p>
+                    <label>Postal Code:</label>
+                    <InputText id="postalCode"
+                               Style="Width: 140px; background-color: lightgray"
+                    @bind-Value="employee.PostalCode" />
+                </p>
+            </div>
+            <div class="column">
+                <p>
+                    <label>Phone:</label>
+                    <InputText id="postalCode"
+                               Style="Width: 140px; background-color: lightgray"
+                    @bind-Value="employee.Phone" />
+                    <ValidationMessage For="() => employee.Phone" />
+                </p>
+                <p>
+                    <label>Email:</label>
+                    <InputText id="email"
+                               Style="Width: 300px; background-color: lightgray"
+                    @bind-Value="employee.Email" />
+                    <ValidationMessage For="() => employee.Email" />
+                </p>
+                <p>
+                    <label>Employee Role:</label>
+                    <InputSelect @bind-Value="employee.RoleID" Style="Width: 140px; background-color: lightgray">
+                        <option value="0">select ...</option>
+                        @foreach (var status in statusLookup)
+                        {
+                            <option value="@status.LookupID">@status.Name</option>
+                        }
+                    </InputSelect>
+                </p>
+            </div>
+        </div>
+        @{
+            //  The ValidationSummary component can simply be dropped into an EditForm in our
+            //      mark-up
+        }
+        @*<ValidationSummary />*@
+    </EditForm>
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" disabled="@disableSaveButton" @onclick="Save">Save</MudButton>
+    <MudButton Variant="Variant.Filled" Color="@closeButtonColor" @onclick="Cancel">@closeButtonText</MudButton>
+
+</body>
+<footer>
+    @if (hasFeedback)
+    {
+        <blockquote>@feedbackMessage</blockquote>
+    }
+    @if (hasError)
+    {
+        <blockquote>
+            @errorMessage
+            <ul>
+                @foreach (var detail in errorDetails)
+                {
+                    <li>@detail</li>
+                }
+            </ul>
+        </blockquote>
+    }
+</footer>

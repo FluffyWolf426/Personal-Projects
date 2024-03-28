@@ -1,0 +1,75 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">HogWildWebApp</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/HogWild/CustomerList">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Customers
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/HogWild/EmployeeList">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Employees
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/HogWild/InvoiceList">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Invoices
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/HogWild/PartList">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Parts
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" @onclick="() => expandMaintenancePages = !expandMaintenancePages">
+                <span class="oi-list-rich" aria-hidden="true"></span>Maintenance
+            </NavLink>
+            @if(expandMaintenancePages)
+            {
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="/HogWild/CategoryLookupEdit">
+                        <span class="oi oi-list-rich" aria-hidden="true"></span> Categories Lookups
+                    </NavLink>
+                </div>
+            }
+        </div>
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    //  hold the current state of the maintenance Page
+    private bool expandMaintenancePages;
+}

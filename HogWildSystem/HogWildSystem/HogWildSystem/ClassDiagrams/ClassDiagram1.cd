@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HogWildSystem.ViewModels.CustomerEditView">
+    <Position X="3.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAEAAACAAgAAIIAAEAAAIEAAQAAAAAAAAIABAAAg=</HashCode>
+      <FileName>ViewModels\CustomerEditView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HogWildSystem.ViewModels.CustomerSearchView">
+    <Position X="5.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAIAAAQAAAIEAAAAAAAAAAAIAAAAAg=</HashCode>
+      <FileName>ViewModels\CustomerSearchView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

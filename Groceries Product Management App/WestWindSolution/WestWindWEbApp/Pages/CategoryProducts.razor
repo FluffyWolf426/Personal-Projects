@@ -1,0 +1,124 @@
+﻿@page "/categoryproducts/{CategoryId:int?}"
+@using WestWindSystem.Entities
+@using WestWindSystem.BLL
+
+
+<PageTitle>Product By Category</PageTitle>
+<h3>Products By Category</h3>
+
+@if (feedbackMessage != null)
+{
+    <div class="alert alert-info">
+        <p> @feedbackMessage</p>
+    </div>
+}
+
+<div class="col-4">
+    <label for="categoryid" class="form-label">Select Product Category</label>
+    <select @bind="CategoryId"
+            type="text"
+            class="form-control"
+            id="categoryid">
+
+        <option value="0">--- select a category---</option>
+        @foreach (var currentCategory in categories)
+        {
+            <option value="@currentCategory.CategoryID"
+                    selected="@(CategoryId == null ? false : CategoryId == currentCategory.CategoryID)">
+                @currentCategory.CategoryName
+            </option>
+        }
+    </select>
+    <br/>
+    <button @onclick="OnClickSelect" class="btn btn-primary rounded-pill">Fetch Products</button>
+    &nbsp;&nbsp;
+    <button type="submit" class="btn btn-secondary rounded-pill">
+            <NavLink href="productcrud" style="color:white;text-decoration:none;">New Product</NavLink></button>
+</div>
+<div class="row">
+    @if (productList.Count > 0)
+    {
+        <!-- add the following div statement to add scrolling to your table-->
+        <div class="offset-3 col-md-6 overflow-scroll" style="height:500px;">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Product</th>
+                        <th>Unit size</th>
+                        <th>Company Name</th>
+                        <th>Disc.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (Product item in productList)
+                    {
+                        <tr>
+                            <td><a href="/productcrud/@item.ProductID">View</a></td>
+                            <td>@item.ProductName</td>
+                            <td>@item.QuantityPerUnit</td>
+                            <td>@item.Supplier.ContactName</td>
+                            <td>@(item.Discontinued ? "Yes" : " ")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        if (CategoryId != null && CategoryId.Value > 0)
+        {
+            <div class="offset-3 col-md-6 text-center" style="font-size:48px;">
+                <p>No products for the selected category</p>
+            </div>
+        }
+    }
+</div>
+
+@code {
+
+    [Parameter]
+    public int? CategoryId { get; set; }
+
+    private string? feedbackMessage;
+
+    [Inject]
+    private ProductServices _productServices { get; set; }
+    private List<Product> productList = new List<Product>();
+
+    [Inject]
+    private CategoryServices _categoryServices { get; set; }
+    private List<Category> categories = new();
+
+    [Inject]
+    private SupplierServices _supplierServices { get; set; }
+    private List<Supplier> suppliers = new();
+
+    protected override void OnInitialized()
+    {
+        categories = _categoryServices.Category_GetList();
+
+        //this call brings in the collection needed to do the navigational work
+        //  to the column on the table
+        suppliers = _supplierServices.Supplier_GetList();
+        if(CategoryId != null && CategoryId != 0)
+        {
+            OnClickSelect();
+        }
+        base.OnInitialized();
+    }
+
+    private void OnClickSelect()
+    {
+        if (CategoryId == null || CategoryId.Value == 0)
+        {
+            feedbackMessage = "Select a category to view its products.";
+            productList = new List<Product>();
+        }
+        else
+        {
+            productList = _productServices.Product_GetByCategory(CategoryId.Value);
+        }
+    }
+}
